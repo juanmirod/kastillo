@@ -1,0 +1,14 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 003ABH 003ACH DATOS              
+ 003B0H 007AFH 00400H PILA               
+ 007B0H 0118FH 009E0H CODIGO             
+ 01190H 011E7H 00058H CODIGO             
+ 011F0H 01B7FH 00990H DATAMAZ            
+ 01B80H 02113H 00594H CODIGO1            
+ 02120H 0249BH 0037CH CODIGORTI          
+ 024A0H 02924H 00485H CODIGOM            
+
+Program entry point at 007B:0000
+
