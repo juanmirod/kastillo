@@ -1,0 +1,35 @@
+*****************************************************************
+  Nombre:    Juan Miguel
+  Apellidos: Rodríguez Cerón
+  D.N.I.:    74879016
+
+  I.T.I.S. 2º A
+******************************************************************
+
+
+ *  De entre las mejoras propuestas se ha obtado por el "Modo dos jugadores" para el cual se ha creado una rti para el teclado q permite o no el manejo del fantasma dependiendo de si se está en modo 1 jugador o no, además, esta rutina se utiliza para el manejo del koko y la recogida de la opcion elegida en el menú.
+
+ El modo dos jugadores podrá activarse en cualquier momento del juego yendo al menu, (sin por ello perder la situación del juego) y eligiendo la opción indicada ( tecla 5 ), en el menú se indica en todo momento en el modo en el que se encuentra.
+
+ Las teclas de movimiento para los dos jugadores son:
+
+ Fantasma (solo en modo 2 jugadores):
+
+   'w' .- arriba
+   's' .- abajo
+   'a' .- izquierda
+   'd' .- derecha
+   
+ 
+ Koko (siempre):
+
+   Cursores 
+  
+  ---------------
+
+ * Se ha mejorado el algoritmo del fantasma ya que en algunos casos no funcionaba como cabía esperar (en lugar de perseguir al koko "huía" de él) para más detalle ver módulo ks_mov.asm.
+
+ * Se ha incluido una "casilla de meta" (en la posición indicada en la descripción del juego) y una pequeña leyenda debajo de la mazmorra todo ello con el fin de que el usuario tenga claro el objetivo deljuego.
+
+ * El módulo "son.asm" suministrado en el laboratorio, que  se utiliza para emitir sonidos cuando el koko se "come" una moneda y cuando "choca"con los obstáculos ha sido modificado para recibir todos los parámetros por valor.
+ 
