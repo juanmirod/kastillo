@@ -1,30 +1,29 @@
 *****************************************************************
   Nombre:    Juan Miguel
-  Apellidos: Rodríguez Cerón
-  D.N.I.:    74879016
+  Apellidos: Rodrï¿½guez Cerï¿½n
 
-  I.T.I.S. 2º A
+  I.T.I.S. 2ï¿½ A
 ******************************************************************
 
- Descripción de los módulos:
+ Descripciï¿½n de los mï¿½dulos:
 
- * kastillo.asm .- módulo principal del juego (segmento de datos y de código principales)
+ * kastillo.asm .- mï¿½dulo principal del juego (segmento de datos y de cï¿½digo principales)
 
  * ks_mov.asm .- contiene las rutinas para el movimiento del koko y del fantasma
 
- * ks_pan.asm .- en él están todas las rutinas que escriben en pantalla 
+ * ks_pan.asm .- en ï¿½l estï¿½n todas las rutinas que escriben en pantalla 
 
  * ks_rti.asm .- las rutinas de tratamiento de las interrupciones del teclado y de la impresora
  
- * ks_mac.asm .- macros de ámbito global
+ * ks_mac.asm .- macros de ï¿½mbito global
 
- * ks_mlo.asm .- macros de ámbito local al programa principal (el contenido en kastillo.asm)
+ * ks_mlo.asm .- macros de ï¿½mbito local al programa principal (el contenido en kastillo.asm)
  
  * ks_maz.asm .- segmento de datos con la mazmorra por defecto (para el modo f)
 
- * ks_son.asm .- módulo "son.asm" utilizado en el laboratorio, con algunas modificaciones (ver MEJORAS.TXT)
+ * ks_son.asm .- mï¿½dulo "son.asm" utilizado en el laboratorio, con algunas modificaciones (ver MEJORAS.TXT)
 
- * ks_ret.asm .- módulo "retardo.asm" utilizado en el laboratorio
+ * ks_ret.asm .- mï¿½dulo "retardo.asm" utilizado en el laboratorio
 
 
 ----------------------------------------------------------------------------------------
@@ -32,7 +31,7 @@
  NOTAS: 
  -------
 
- * Para activar el menu del pulsador de la impresora debe ejecutarse el juego en MS-DOS (con el ratón instalado, sino el propio juego nos indicará la imposibilidad de accceder a este menú) ya q ue la temporización del juego está hecha con el contador de ticks, y en windows no se puede detener ni modificar, con lo que si se activa el menu en windows durante algunos segundos al volver al juego dará un error de división por cero.
+ * Para activar el menu del pulsador de la impresora debe ejecutarse el juego en MS-DOS (con el ratï¿½n instalado, sino el propio juego nos indicarï¿½ la imposibilidad de accceder a este menï¿½) ya q ue la temporizaciï¿½n del juego estï¿½ hecha con el contador de ticks, y en windows no se puede detener ni modificar, con lo que si se activa el menu en windows durante algunos segundos al volver al juego darï¿½ un error de divisiï¿½n por cero.
  
 
                  
